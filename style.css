@@ -4,7 +4,7 @@
 
 /* Common Css */
 
-.mb-20{
+.mb-20 {
     margin-bottom: 20px;
 }
 
@@ -136,7 +136,7 @@ body {
 
 /* ask area  */
 
-.ask-area{
+.ask-area {
     margin: auto;
 }
 
@@ -165,18 +165,19 @@ textarea {
 }
 
 /* sponsor area  */
-.sponsor-area{
+.sponsor-area {
     margin: auto;
 }
 
 .sponsor-brand {
     display: flex;
-    justify-content: space-between;}
-   
+    justify-content: space-between;
+}
+
 
 /* footer area  */
-.footer-area{
-    margin: auto; 
+.footer-area {
+    margin: auto;
 }
 
 .footer-content {

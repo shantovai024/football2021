@@ -3,6 +3,10 @@
 @media (max-width: 768px) {
 
     /* header area */
+    .header-area {
+        width: 768px;
+    }
+
     .header-left {
         width: 768px;
         margin-bottom: 50px;
@@ -12,10 +16,19 @@
         width: 768px;
     }
 
+    .half-width {
+        width: 768px;
+    }
+
     .container-fluid {
         display: block;
         padding: 50px;
     }
+
+    .header-right img {
+        width: 80%;
+    }
+
 
     /* players area  */
     .players-area {
@@ -59,9 +72,10 @@
     }
 
     /* ask content  */
-    .ask-area{
+    .ask-area {
         width: 768px;
     }
+
     .ask-content {
         width: 768px;
         text-align: center;
@@ -88,7 +102,7 @@
     }
 
     /* footer area  */
-    .footer-area{
+    .footer-area {
         width: 768px;
     }
 
@@ -98,13 +112,17 @@
 @media (max-width: 576px) {
 
     /* header area */
+    .header-area {
+        width: 576px;
+    }
+
     .header-left {
-        width: 100%;
+        width: 576px;
         margin-bottom: 50px;
     }
 
     .header-right {
-        width: 100%;
+        width: 576px;
     }
 
     .container-fluid {
@@ -112,7 +130,15 @@
         padding: 50px;
     }
 
+    .header-right img {
+        width: 80%;
+    }
+
     /* players area  */
+    .players-area {
+        width: 576px;
+    }
+
     .players {
         display: block;
         width: 576px;
@@ -128,6 +154,10 @@
     }
 
     /* sponsor area  */
+    .sponsor-area {
+        width: 576px;
+    }
+
     .sponsor-content {
         width: 100%;
     }
@@ -139,6 +169,10 @@
     }
 
     /* ask content  */
+    .ask-area {
+        width: 576px;
+    }
+
     .ask-content {
         width: 576px;
         text-align: center;
@@ -162,5 +196,10 @@
     .ask-group a {
         position: static;
         left: 0;
+    }
+
+    /* footer area  */
+    .footer-area {
+        width: 576px;
     }
 }
