@@ -1,0 +1,141 @@
+/* Responsive for Mobile & Tablet Devices */
+
+@media (max-width: 768px) {
+
+    /* header area */
+    .header-left {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .header-right {
+        width: 100%;
+    }
+
+    .container-fluid {
+        display: block;
+        padding: 50px;
+    }
+
+    /* players area  */
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+        width: 768px;
+    }
+
+    .fluid-area-2 {
+        padding: 50px 0 50px 0;
+        width: 768px;
+    }
+
+    .single-player {
+        margin: auto;
+    }
+
+    /* sponsor area  */
+    .sponsor-brand {
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .sponsor-brand {
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    /* ask content  */
+    .ask-content {
+        width: 768px;
+        text-align: center;
+    }
+
+    .ask-content textarea {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .ask-group {
+        text-align: center;
+        display: block;
+    }
+
+    .ask-group input {
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    .ask-group a {
+        position: static;
+        left: 0;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+
+    /* header area */
+    .header-left {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .header-right {
+        width: 100%;
+    }
+
+    .container-fluid {
+        display: block;
+        padding: 50px;
+    }
+
+    /* players area  */
+    .players {
+        display: block;
+        width: 576px;
+    }
+
+    .fluid-area-2 {
+        padding: 50px 0 50px 0;
+        width: 576px;
+    }
+
+    .single-player {
+        margin: auto;
+    }
+
+    /* sponsor area  */
+    .sponsor-brand {
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    /* ask content  */
+    .ask-content {
+        width: 576px;
+        text-align: center;
+    }
+
+    .ask-content textarea {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .ask-group {
+        text-align: center;
+        display: block;
+    }
+
+    .ask-group input {
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    .ask-group a {
+        position: static;
+        left: 0;
+    }
+}

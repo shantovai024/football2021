@@ -1,0 +1,197 @@
+/* Google font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Common Css */
+
+.text-white {
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-blue {
+    background-color: #2D25A0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.btn-1 {
+    font-weight: 500;
+    line-height: 24px;
+    padding: 10px 24px;
+    background: #E02C6D;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    transition: 0.3s ease all;
+}
+
+.btn-1:hover {
+    background: #13488f94;
+    color: #000;
+}
+
+.faw {
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+.w-1050 {
+    width: 1050px;
+}
+
+.w-720 {
+    width: 720px;
+}
+
+.w-480 {
+    width: 480px;
+}
+
+.img-fluid img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.container-fluid {
+    padding: 50px 150px;
+}
+
+.fluid-area-2 {
+    padding: 70px 180px;
+
+}
+
+/* header area */
+
+.header-area {
+    min-height: 500px;
+}
+
+.header-content {
+    width: 485px;
+}
+
+.header-content h1 {
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+/* players area  */
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+
+.single-player {
+    width: 300px;
+    background: #FFFFFF;
+    margin-bottom: 27px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-thumb img {
+    height: 255px;
+}
+
+.players h2 {
+    color: #18191F;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+/* ask area  */
+
+textarea {
+    width: 710px;
+    height: 120px;
+    outline: none;
+    border: 3px solid #ddd;
+}
+
+.ask-content input {
+    width: 230px;
+    height: 35px;
+    outline: none;
+    border: 3px solid #ddd;
+    margin-right: 10px;
+}
+
+.ask-group {
+    position: relative;
+}
+
+.ask-group a {
+    position: absolute;
+    right: 0;
+}
+
+/* sponsor area  */
+
+.sponsor-brand {
+    justify-content: space-between;
+}
+
+/* footer area  */
+
+.footer-content {
+    margin: auto;
+}
+
+.footer-icon a {
+    width: 48px;
+    display: inline-block;
+    height: 48px;
+    background: #e7e7e8;
+    line-height: 32px;
+    color: #969BAB;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.footer-icon i {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #969BAB;
+}
+
+.footer-icon a:hover {
+    color: #E02C6D;
+}
+
+.footer-text p {
+    font-size: 18px;
+    line-height: 24px;
+}
