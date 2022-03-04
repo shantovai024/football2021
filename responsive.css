@@ -4,12 +4,12 @@
 
     /* header area */
     .header-left {
-        width: 100%;
+        width: 768px;
         margin-bottom: 50px;
     }
 
     .header-right {
-        width: 100%;
+        width: 768px;
     }
 
     .container-fluid {
@@ -18,6 +18,10 @@
     }
 
     /* players area  */
+    .players-area {
+        width: 768px;
+    }
+
     .players {
         grid-template-columns: repeat(2, 1fr);
         width: 768px;
@@ -33,19 +37,31 @@
     }
 
     /* sponsor area  */
-    .sponsor-brand {
-        display: block;
+
+    .sponsor-area {
+        width: 768px;
+    }
+
+    .sponsor-content {
+        margin: auto;
         text-align: center;
-        margin-bottom: 15px;
     }
 
     .sponsor-brand {
-        justify-content: space-between;
+        justify-content: center;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-    
+
+    .sponsor-brand img {
+        text-align: center;
+
+    }
+
     /* ask content  */
+    .ask-area{
+        width: 768px;
+    }
     .ask-content {
         width: 768px;
         text-align: center;
@@ -69,6 +85,11 @@
     .ask-group a {
         position: static;
         left: 0;
+    }
+
+    /* footer area  */
+    .footer-area{
+        width: 768px;
     }
 
 
@@ -107,6 +128,10 @@
     }
 
     /* sponsor area  */
+    .sponsor-content {
+        width: 100%;
+    }
+
     .sponsor-brand {
         display: block;
         text-align: center;
